@@ -8,4 +8,4 @@ Welcome!  I am a probationary research student at the University of Oxford in th
 
 <img src="https://matthewkatzman.github.io/tex/6d2c3a83a75d01b881f8ffb7aed192e5.svg"/>
 
-<img src="/tex/6d2c3a83a75d01b881f8ffb7aed192e5.svg?invert_in_darkmode&sanitize=true"/>
+<img src="/tex/6d2c3a83a75d01b881f8ffb7aed192e5.svg?invert_in_darkmode&sanitize=true" align=middle/>
