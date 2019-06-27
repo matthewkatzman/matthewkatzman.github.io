@@ -10,4 +10,10 @@ Welcome!  I am a probationary research student at the University of Oxford in th
 
 ## Complexity Classes
 
+### Uniform
+
 [NEXP](/notes/classes/NEXP.md)
+
+## Background
+
+[Karp-Lipton Theorems](/notes/background/karpLipton.md)
