@@ -8,7 +8,7 @@
 
 The idea here is as follows:
 
-<img src="/tex/777d001ea1ec5971b67bb546ed760f97.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/> <img src="/tex/8f4009c742d0990ac35ee687510fe084.svg?invert_in_darkmode&sanitize=true" align=middle width=79.20885224999999pt height=22.831056599999986pt/>
+<img src="/tex/777d001ea1ec5971b67bb546ed760f97.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/>
 
 #### The Easy Witness Lemma
 
