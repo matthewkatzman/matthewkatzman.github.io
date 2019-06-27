@@ -1,3 +1,3 @@
 # Karp Lipton Theorems
 
-## <img src="/notes/background/tex/1dd65cc7596505403efd8786296ac771.svg?invert_in_darkmode&sanitize=true" align=middle width=205.40980514999995pt height=27.6567522pt/>
+## <img src="/notes/background/tex/964287ab76fecafb422f1d7c31089b35.svg?invert_in_darkmode&sanitize=true" align=middle width=206.683719pt height=27.72066330000001pt/>
