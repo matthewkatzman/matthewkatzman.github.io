@@ -1,3 +1,3 @@
 # Karp Lipton Theorems
 
-## $\textbf{NP}\subset\textbf{P/poly}\rightarrow\textbf{PH}=\boldsymbol{\Sigma_2^P}$
+## $\textbf{NP}\subset\textbf{P/poly}\rightarrow\textbf{PH}=\boldsymbol{\Sigma_2^\textnormal{P}}$
