@@ -6,4 +6,8 @@ Welcome!  I am a probationary research student at the University of Oxford in th
 
 ### Easy Witness
 
-[In Search of an Easy Witness: Exponential Time vs. Probabilistic Polynomial Time](/easyWitness.md) - Russell Impagliazzo, Valentine Kabanets, Avi Wigderson
+[In Search of an Easy Witness: Exponential Time vs. Probabilistic Polynomial Time](/notes/papers/easyWitness.md) - Russell Impagliazzo, Valentine Kabanets, Avi Wigderson
+
+## Complexity Classes
+
+[NEXP](/notes/classes/NEXP.md)
