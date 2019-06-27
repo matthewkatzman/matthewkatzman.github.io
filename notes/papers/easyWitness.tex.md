@@ -6,7 +6,7 @@
 
 #### $\textbf{NEXP}\subset\textbf{P/poly}\Leftrightarrow\textbf{NEXP}=\textbf{MA}$
 
-The idea here is as follows:
+In other words, derandomization of $\textbf{MA}$ is equivalent to the existence of a hard function in $\textbf{NEXP}$.  The idea here is as follows:
 
 $\Rightarrow$
 
