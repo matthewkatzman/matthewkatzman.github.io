@@ -4,4 +4,4 @@ Welcome!  I am a probationary research student at the University of Oxford in th
 
 ## Papers
 
-<img src="/tex/6d2c3a83a75d01b881f8ffb7aed192e5.svg?invert_in_darkmode&sanitize=true" align="middle" width="13.105093649999997pt" height="27.77565449999998pt"/>
+[In Search of an Easy Witness: Exponential Time vs. Probabilistic Polynomial Time](/easyWitness.md) 
