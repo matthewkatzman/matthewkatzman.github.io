@@ -8,7 +8,7 @@
 
 The idea here is as follows:
 
-$\Rightarrow$ $Leftarrow$
+$\Rightarrow$
 
 #### The Easy Witness Lemma
 
