@@ -20,4 +20,16 @@ The basic idea is that
 
 ### Overview
 
+#### The Main Result
+
+**Theorem:** $\textbf{NEXP}\subset\textbf{P/poly}\Leftrightarrow\textbf{NEXP}=\textbf{MA}$
+
+*Proof:* First we show ($\Rightarrow$).  Assume that $\textbf{NEXP}\subset\textbf{P/poly}$.  We show:
+
+(1) $\textbf{NEXP}=\textbf{EXP}$.
+
+If $\textbf{NEXP}$ has easy witnesses (even considering circuits with oracle $\texttt{SAT}$ gates), then the witness search space is reduced to the point that one can iterate over and evaluate all candidate certificates in exponential time.  This would imply $\textbf{NEXP}=\textbf{EXP}$.  So assume, for the sake of contradiction, that $\textbf{NEXP}\neq\textbf{EXP}$.  Then there is a problem in $\text{NEXP}$ for which easy witnesses do not exist infinitely often.
+
+Assume, for the sake of contradiction, that $\textbf{NEXP}\neq\textbf{EXP}$.  
+
 The main concept used here is the nondeterministic generation of hard functions.  
