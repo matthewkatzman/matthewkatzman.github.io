@@ -40,9 +40,9 @@ Using this fact, we create the following <img src="/notes/papers/tex/d68ffd33fdb
 
 Klivans and Melkebeek \[KM99\] showed that this ability to generate a *hard* function gives the weak *derandomization* result
 
-(3) <img src="/notes/papers/tex/5eaede64430c84af9e4428afbe10c1c6.svg?invert_in_darkmode&sanitize=true" align=middle width=247.98045029999997pt height=28.92981300000002pt/>.
+(3) <img src="/notes/papers/tex/4e86b8b0cd20852ec4ac817fc5b6f8c4.svg?invert_in_darkmode&sanitize=true" align=middle width=268.5137961pt height=28.92981300000002pt/>.
 
 Now, Babai, Fortnow, Nisan, and Wigderson \[BFNW93\] show that, (1) gives us <img src="/notes/papers/tex/e9338db5ed13d5096e92191a285dca77.svg?invert_in_darkmode&sanitize=true" align=middle width=147.94430309999998pt height=22.55708729999998pt/>, and combining this with (3) gives us 
 
-(4) <img src="/notes/papers/tex/a51af42dfcc3270ed763bb3a4ac219b0.svg?invert_in_darkmode&sanitize=true" align=middle width=249.89874524999996pt height=28.92981300000002pt/>.
+(4) <img src="/notes/papers/tex/be53750c133866a4de423fe99b05656c.svg?invert_in_darkmode&sanitize=true" align=middle width=270.43209105pt height=28.92981300000002pt/>.
 
