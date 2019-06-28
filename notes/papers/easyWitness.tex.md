@@ -12,4 +12,12 @@ $\Rightarrow$
 
 #### The Easy Witness Lemma
 
-A big takeaway from this paper is as follows: if $\textbf{NEXP}\subset\textbf{P/poly}$, then
+The central idea of this technique is the ability to verify language membership from a heavily reduced search space.  The paper investigates the difference between the traditional concept of verifiers and verifiers for which certificates are the truth tables of functions with small circuits (in other words, verifiers with easy witnesses of membership).  The paper discusses the consequences of equality or inequality of these two notions.
+
+A big takeaway from this paper is as follows: if $\textbf{NEXP}\subset\textbf{P/poly}$, then for every $L\in\textbf{NEXP}$ we can associate with any (correct) verifier a polynomial $p(n)$ such that for every $x\in L$ at least one accepted certificate can be compressed and represented as the truth table of circuit of size at most $p(n)$.  In other words, no matter the verifier, every $x\in L$ has an "easy witness" that $x$ is in $L$.
+
+The basic idea is that 
+
+### Overview
+
+The main concept used here is the nondeterministic generation of hard functions.  
