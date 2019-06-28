@@ -40,9 +40,9 @@ Using this fact, we create the following $2^{O(n)}$-time Turing Machine $M$ give
 
 Klivans and Melkebeek \[KM99\] showed that this ability to generate a *hard* function gives the weak *derandomization* result
 
-(3) $\textbf{AM}\subseteq\textnormal{i.o.}-\textbf{NTIME}\left\[2^{n^\epsilon}\right\]/(n+1)^\epsilon$.
+(3) $\textbf{AM}\subseteq\textnormal{i.o.}-\textbf{NTIME}\left[2^{n^\epsilon}\right]/(n+1)^\epsilon$.
 
 Now, Babai, Fortnow, Nisan, and Wigderson \[BFNW93\] show that, (1) gives us $\textbf{EXP}=\textbf{AM}=\textbf{MA}$, and combining this with (3) gives us 
 
-(4) $\textbf{EXP}\subseteq\textnormal{i.o.}-\textbf{NTIME}\left\[2^{n^\epsilon}\right\]/(n+1)$.
+(4) $\textbf{EXP}\subseteq\textnormal{i.o.}-\textbf{NTIME}\left[2^{n^\epsilon}\right]/(n+1)$.
 
