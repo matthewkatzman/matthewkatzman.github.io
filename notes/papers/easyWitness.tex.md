@@ -24,12 +24,25 @@ The basic idea is that
 
 **Theorem:** $\textbf{NEXP}\subset\textbf{P/poly}\Leftrightarrow\textbf{NEXP}=\textbf{MA}$
 
-*Proof:* First we show ($\Rightarrow$).  Assume that $\textbf{NEXP}\subset\textbf{P/poly}$.  We show:
+**Lemma 1:** $\textbf{NEXP}\subset\textbf{P/poly}\Rightarrow\textbf{NEXP}=\textbf{EXP}$.
 
-(1) $\textbf{NEXP}=\textbf{EXP}$.
+*Proof:* First we show ($\Rightarrow$).  Assume that 
 
-If $\textbf{NEXP}$ has easy witnesses (even considering circuits with oracle $\texttt{SAT}$ gates), then the witness search space is reduced to the point that one can iterate over and evaluate all candidate certificates in exponential time.  This would imply $\textbf{NEXP}=\textbf{EXP}$.  So assume, for the sake of contradiction, that $\textbf{NEXP}\neq\textbf{EXP}$.  Then there is a problem in $\text{NEXP}$ for which easy witnesses do not exist infinitely often.
+(1) $\textbf{NEXP}\subset\textbf{P/poly}$.
 
-Assume, for the sake of contradiction, that $\textbf{NEXP}\neq\textbf{EXP}$.  
+and, for the sake of contradiction, assume that
 
-The main concept used here is the nondeterministic generation of hard functions.  
+(2) $\textbf{NEXP}\neq\textbf{EXP}$.
+
+If $\textbf{NEXP}$ has easy witnesses (even considering circuits with oracle $\texttt{SAT}$ gates), then the witness search space is reduced to the point that one can iterate over and evaluate all candidate certificates in exponential time.  This would imply $\textbf{NEXP}=\textbf{EXP}$.  So by (2), there is a problem $L$ in $\text{NEXP}$ for which easy witnesses do not exist infinitely often.
+
+Using this fact, we create the following $2^{O(n)}$-time Turing Machine $M$ given $n+1$ bits of advice.  On input lengths which do not have easy witnesses, there is at least one specific input $z\in L$ for which the certificate is hard.  Provide the string $1z$ as advice in this case.  For all other input lengths, provide $0^{n+1}$.  One can output $0^{2^n}$ and accept in this case.  Otherwise, on input of length $n$, nondeterministically guess a certificate showing $x\in L$ which, by assumption, does not have small circuits, and verify normally before providing the guessed certificate as output.  $M$ nondeterministically generates the truth table of an infinitely-often hard function for circuits with oracles for $\texttt{SAT}$.
+
+Klivans and Melkebeek \[KM99\] showed that this ability to generate a *hard* function gives the weak *derandomization* result
+
+(3) $\textbf{AM}\subseteq\textnormal{i.o.}-\textbf{NTIME}\left\[2^{n^\epsilon}\right\]/(n+1)^\epsilon$.
+
+Now, Babai, Fortnow, Nisan, and Wigderson \[BFNW93\] show that, (1) gives us $\textbf{EXP}=\textbf{AM}=\textbf{MA}$, and combining this with (3) gives us 
+
+(4) $\textbf{EXP}\subseteq\textnormal{i.o.}-\textbf{NTIME}\left\[2^{n^\epsilon}\right\]/(n+1)$.
+
