@@ -20,4 +20,16 @@ The basic idea is that
 
 ### Overview
 
+#### The Main Result
+
+**Theorem:** <img src="/notes/papers/tex/b560ff2705f21960f31f0200a056e607.svg?invert_in_darkmode&sanitize=true" align=middle width=268.58288655pt height=24.65753399999998pt/>
+
+*Proof:* First we show (<img src="/notes/papers/tex/777d001ea1ec5971b67bb546ed760f97.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/>).  Assume that <img src="/notes/papers/tex/77fc0a70b06f5a122e80d7a9dd446aa7.svg?invert_in_darkmode&sanitize=true" align=middle width=134.69101634999998pt height=24.65753399999998pt/>.  We show:
+
+(1) <img src="/notes/papers/tex/d5b0955968ea3cad6274f10a34ac8d12.svg?invert_in_darkmode&sanitize=true" align=middle width=115.98105419999997pt height=22.55708729999998pt/>.
+
+If <img src="/notes/papers/tex/3262497f78af8a499e76e85f7bdb9422.svg?invert_in_darkmode&sanitize=true" align=middle width=54.42894764999999pt height=22.55708729999998pt/> has easy witnesses (even considering circuits with oracle <img src="/notes/papers/tex/95d4aeb7638140fd70ba48c1d0a76c2d.svg?invert_in_darkmode&sanitize=true" align=middle width=25.890204449999988pt height=20.09134050000002pt/> gates), then the witness search space is reduced to the point that one can iterate over and evaluate all candidate certificates in exponential time.  This would imply <img src="/notes/papers/tex/d5b0955968ea3cad6274f10a34ac8d12.svg?invert_in_darkmode&sanitize=true" align=middle width=115.98105419999997pt height=22.55708729999998pt/>.  So assume, for the sake of contradiction, that <img src="/notes/papers/tex/8de03f1ff93f09bbe377652be283542a.svg?invert_in_darkmode&sanitize=true" align=middle width=115.98105419999997pt height=22.831056599999986pt/>.  Then there is a problem in <img src="/notes/papers/tex/8d6516164fea0dbeb5f2d6a973eeefd9.svg?invert_in_darkmode&sanitize=true" align=middle width=47.032081799999986pt height=22.465723500000017pt/> for which easy witnesses do not exist infinitely often.
+
+Assume, for the sake of contradiction, that <img src="/notes/papers/tex/8de03f1ff93f09bbe377652be283542a.svg?invert_in_darkmode&sanitize=true" align=middle width=115.98105419999997pt height=22.831056599999986pt/>.  
+
 The main concept used here is the nondeterministic generation of hard functions.  
