@@ -1,3 +1,5 @@
+Return [Home](https://matthewkatzman.github.io/notes/notes.html)
+
 # $\textbf{NEXP}=\bigcup_{k\in\mathbb{N}}\textbf{NTIME}\left[2^{O\left(n^k\right)}\right]$ - Nondeterministic Exponential Time
 
 ## Known Results
