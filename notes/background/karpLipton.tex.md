@@ -1,3 +1,5 @@
+Return [Home](https://matthewkatzman.github.io/notes/notes.html)
+
 # Karp Lipton Theorems
 
 ## $\textbf{NP}\subset\textbf{P/poly}\Rightarrow\textbf{PH}=\boldsymbol{\Sigma_2^\textbf{P}}$
