@@ -4,4 +4,4 @@ Return [Home](https://matthewkatzman.github.io/notes/notes.html)
 
 ## Known Results
 
-<img src="/notes/classes/tex/b560ff2705f21960f31f0200a056e607.svg?invert_in_darkmode&sanitize=true" align="middle" width="268.58288655pt" height="24.65753399999998pt"/> [\[IKW02\]](/notes/papers/easyWitness.md)
+<img src="/notes/classes/tex/b560ff2705f21960f31f0200a056e607.svg?invert_in_darkmode&sanitize=true" align="middle" width="268.58288655pt" height="24.65753399999998pt"/> [\[IKW02\]](https://matthewkatzman.github.io/notes/papers/easyWitness.html)
