@@ -53,3 +53,15 @@ Klivans and Melkebeek \[KM99\] showed that this ability to generate a *hard* fun
 Now, Babai, Fortnow, Nisan, and Wigderson \[BFNW93\] show that, (1) gives us $\textbf{EXP}=\textbf{AM}=\textbf{MA}$, and combining this with (3) gives us 
 
 (4) $\textbf{EXP}\subseteq\textnormal{i.o.}-\textbf{NTIME}\left[2^n\right]/(n+1)$.
+
+Now, note that for any language $L\in\textbf{NTIME}\left[2^n\right]/(n+1)$ with advice sequence $\left\{a_n\right\}$, there is a nondeterministic machine $N$ running in time $2^{O(n)}$ that, on input $x$, guesses $y_{|x|}$ and verifies that $x\in L$.  Generally, there is a universal Turing Machine $U$ that, on input $(i,x)$ simulates the $i^\textnormal{th}$ lexicographic Turing Machine $M_i$ for at most $2^n$ time steps on input $x$, accepting if $M_i$ accepts.  Because this can be implemented with at most quadratic overhead, $U$ runs in time $2^{2n}$.  Thus, by (1) $U$ has circuits of polynomial size, so for some $k\in\mathbb{N}$, we can implement $U$ with circuits $\left\{C_n\right\}$ of size $n^k$ for large enough $n$.  This tells us that the $i^\textnormal{th}$ lexicographic machine has circuits of size $(\log i+n)^k=O\left(n^k\right)$ ($i$ is a constant expressed in binary as input to $U$), since we can just hard-code $i$ as the first inputs to $C_n$ and the resulting circuit agrees with $M_i$ (to drop the asymptotic notation, we take $d=k+1$ and assume large enough $n$).  Since there is some $i$ such that $M_i$ decides $L$, we have $L\in\textbf{SIZE}\left(n^d\right)$ almost everywhere, so $\textbf{NTIME}\left[2^n\right]/(n+1)\subseteq\textbf{SIZE}\left(n^d\right)$ almost everywhere and, by (4),
+
+(5) $\textbf{EXP}\subseteq\textnormal{i.o.}-\textbf{SIZE}\left(n^d\right)$ almost everywhere.
+
+However, consider the following algorithm: on input $x$ of length $n$, find the lexicographically first circuit $C$ on $n$ inputs of size $2n^d$ with no equivalent circuit of size $n^d$ (this can be brute forced in exponential time), and return $C(x)$.  The language decided by this machine is contained in $\textbf{EXP}$, but is not infinitely often in $\textbf{SIZE}\left(n^d\right)$.  Thus we have found a contradiction to (5), so propogating our contradiction all the way back up to (2), we have $\textbf{EXP}=\textbf{NEXP}$.
+
+Note that the actual contradiction derived from assuming that $\textbf{NEXP}$ did not have easy witness circuits (otherwise we never used (2)).  This implicitly also shows the Easy Witness Lemma holds.
+
+**Corollary 1:** $\textbf{NEXP}\subset\textbf{P/poly}\Rightarrow\textbf{NEXP}=\textbf{MA}$.
+
+*Proof:* Assume $\textbf{NEXP}\subset\textbf{P/poly}$.  Then, by Lemma 1, $\textbf{NEXP}=\textbf{EXP}$ and, by \[BFNW93\], $\textbf{EXP}=\textbf{MA}$, so putting these together yields $\textbf{NEXP}=\textbf{MA}$.
