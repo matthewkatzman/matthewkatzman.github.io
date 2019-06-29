@@ -10,7 +10,7 @@ In other words, derandomization of $\textbf{MA}$ is equivalent to the existence 
 
 ($\Rightarrow$) If this is not true, then the Easy Witness Lemma does not hold.  Thus this direction is basically the proof of the Easy Witness Lemma.
 
-($\Leftarrow$) This is a standard application of hard functions yielding derandomizations, but assuming $\textbf{NEXP}=\textbf{MA}=\textbf{EXP}$, significantly derandomizing $\textbf{MA} gives a faster deterministic simulation of $\textbf{EXP}$, contradicting the time hierarchy theorem.
+($\Leftarrow$) This is a standard application of hard functions yielding derandomizations, but assuming $\textbf{NEXP}=\textbf{MA}=\textbf{EXP}$, significantly derandomizing $\textbf{MA}$ gives a faster deterministic simulation of $\textbf{EXP}$, contradicting the time hierarchy theorem.
 
 #### Hardness vs Randomness
 
