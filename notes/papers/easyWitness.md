@@ -1,4 +1,4 @@
-Return [Home](/notes.md)
+Return [Home](/notes/notes.md)
 
 # In Search of an Easy Witness: Exponential Time vs. Probabilistic Polynomial Time
 
