@@ -10,7 +10,7 @@ In other words, derandomization of <img src="/notes/papers/tex/ba007d1b3734900f1
 
 (<img src="/notes/papers/tex/777d001ea1ec5971b67bb546ed760f97.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/>) If this is not true, then the Easy Witness Lemma does not hold.  Thus this direction is basically the proof of the Easy Witness Lemma.
 
-(<img src="/notes/papers/tex/bd9e3b94a2cd2f370d50ece113f7b316.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/>)
+(<img src="/notes/papers/tex/bd9e3b94a2cd2f370d50ece113f7b316.svg?invert_in_darkmode&sanitize=true" align=middle width=16.43840384999999pt height=14.15524440000002pt/>) This is a standard application of hard functions yielding derandomizations, but assuming <img src="/notes/papers/tex/525986dc5b84a8968c8c8655d1e89fb7.svg?invert_in_darkmode&sanitize=true" align=middle width=170.1359583pt height=22.55708729999998pt/>, significantly derandomizing <img src="/notes/papers/tex/c9d3ac79f99a44be0c1cb74a8c375e62.svg?invert_in_darkmode&sanitize=true" align=middle width=324.68033234999996pt height=22.831056599999986pt/>\textbf{EXP}<img src="/notes/papers/tex/ec70291030106ac15d415edd02b0f643.svg?invert_in_darkmode&sanitize=true" align=middle width=300.74377245pt height=78.90410880000002pt/>\Leftarrow<img src="/notes/papers/tex/5eea368b69816f8bbb20a90fa4d570f8.svg?invert_in_darkmode&sanitize=true" align=middle width=523.3827588pt height=22.831056599999986pt/>\textbf{NEXP}<img src="/notes/papers/tex/14c62bb42d5fbaa35b5f00177040d5a3.svg?invert_in_darkmode&sanitize=true" align=middle width=280.26696225pt height=22.831056599999986pt/>\textbf{MA}<img src="/notes/papers/tex/1a6cca6d1f3b3a39f8e4a77ff18c323f.svg?invert_in_darkmode&sanitize=true" align=middle width=568.17492105pt height=45.84475830000002pt/>\textbf{MA}<img src="/notes/papers/tex/c05d5cf9f7c599f64d1b7289537d59a0.svg?invert_in_darkmode&sanitize=true" align=middle width=488.88754529999994pt height=22.831056599999986pt/>\textbf{NEXP}<img src="/notes/papers/tex/0e1a228a69d0b9657310edcc8634eeb9.svg?invert_in_darkmode&sanitize=true" align=middle width=179.1665469pt height=22.831056599999986pt/>\textbf{MA} is just as hard as <img src="/notes/papers/tex/3262497f78af8a499e76e85f7bdb9422.svg?invert_in_darkmode&sanitize=true" align=middle width=54.42894764999999pt height=22.55708729999998pt/> and adding nondeterminism to <img src="/notes/papers/tex/1badc9c9493a0421ec689d7633f092e8.svg?invert_in_darkmode&sanitize=true" align=middle width=39.29203574999999pt height=22.55708729999998pt/> or randomness to <img src="/notes/papers/tex/93d804881a17daf5af04dfd29bae3c5b.svg?invert_in_darkmode&sanitize=true" align=middle width=27.716759399999994pt height=22.55708729999998pt/> (both) adds a huge amount of computational power.
 
 #### The Easy Witness Lemma
 
@@ -24,7 +24,7 @@ A big takeaway from this paper is as follows: if <img src="/notes/papers/tex/77f
 
 #### The Main Result
 
-**Theorem:** <img src="/notes/papers/tex/b560ff2705f21960f31f0200a056e607.svg?invert_in_darkmode&sanitize=true" align=middle width=268.58288655pt height=24.65753399999998pt/>.
+**Theorem:** <img src="/notes/papers/tex/9ff8b145b8b0b269a0062e64c43eb8d2.svg?invert_in_darkmode&sanitize=true" align=middle width=268.58288655pt height=24.65753399999998pt/>.
 
 **Lemma 1:** <img src="/notes/papers/tex/7f79b4f287a32cefcea2d5bb0245b209.svg?invert_in_darkmode&sanitize=true" align=middle width=275.9800956pt height=24.65753399999998pt/>.
 
