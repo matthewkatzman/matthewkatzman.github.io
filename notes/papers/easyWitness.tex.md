@@ -65,3 +65,5 @@ Note that the actual contradiction derived from assuming that $\textbf{NEXP}$ di
 **Corollary 1:** $\textbf{NEXP}\subset\textbf{P/poly}\Rightarrow\textbf{NEXP}=\textbf{MA}$.
 
 *Proof:* Assume $\textbf{NEXP}\subset\textbf{P/poly}$.  Then, by Lemma 1, $\textbf{NEXP}=\textbf{EXP}$ and, by \[BFNW93\], $\textbf{EXP}=\textbf{MA}$, so putting these together yields $\textbf{NEXP}=\textbf{MA}$.
+
+Test
