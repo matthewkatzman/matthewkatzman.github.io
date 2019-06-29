@@ -1,4 +1,4 @@
-Return [Home](/notes/notes.md)
+Return [Home](https://matthewkatzman.github.io/notes/notes.html)
 
 # In Search of an Easy Witness: Exponential Time vs. Probabilistic Polynomial Time
 
