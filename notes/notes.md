@@ -6,14 +6,14 @@ Welcome!  I am a probationary research student at the University of Oxford in th
 
 ### Easy Witness
 
-[In Search of an Easy Witness: Exponential Time vs. Probabilistic Polynomial Time](/notes/papers/easyWitness.md) - Russell Impagliazzo, Valentine Kabanets, Avi Wigderson
+[In Search of an Easy Witness: Exponential Time vs. Probabilistic Polynomial Time](https://matthewkatzman.github.io/notes/papers/easyWitness.html) - Russell Impagliazzo, Valentine Kabanets, Avi Wigderson
 
 ## Complexity Classes
 
 ### Uniform
 
-[NEXP](/notes/classes/NEXP.md)
+[NEXP](https://matthewkatzman.github.io/notes/classes/NEXP.html)
 
 ## Background
 
-[Karp-Lipton Theorems](/notes/background/karpLipton.md)
+[Karp-Lipton Theorems](https://matthewkatzman.github.io/notes/background/karpLipton.html)
