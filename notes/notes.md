@@ -8,6 +8,8 @@ Welcome!  I am a probationary research student at the University of Oxford in th
 
 [In Search of an Easy Witness: Exponential Time vs. Probabilistic Polynomial Time](https://matthewkatzman.github.io/notes/papers/easyWitness.html) - Russell Impagliazzo, Valentine Kabanets, Avi Wigderson
 
+[Non-Uniform ACC Circuit Lower Bounds/A Casual Tour Around a Circuit Complexity Bound](https://matthewkatzman.github.io/notes/papers/nexpvsacc.html) - Ryan Williams
+
 ## Complexity Classes
 
 ### Uniform
