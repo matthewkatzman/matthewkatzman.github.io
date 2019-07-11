@@ -33,8 +33,8 @@ Modifying the above slightly, we can also decide the output of gate $j$ of circu
 
 * Guess $\textbf{ACC}$ witness $W_x'$.
 * Guess $\textbf{ACC}$ circuit $C$.
-* Construct \textbf{ACC}$ circuit $G_x$.
-* Construct \textbf{ACC}$ circuit $\neg E'$ using $C$ and $G_x$.
+* Construct $\textbf{ACC}$ circuit $G_x$.
+* Construct $\textbf{ACC}$ circuit $\neg E'$ using $C$ and $G_x$.
 * If $\neg E'$ is satisfiable, *reject*.
 * Fix inputs to create $\textbf{ACC}$ circuit $x'=\C\left(x,\cdot,j_s\right)$ with $j_s$ the output gate of $x$.
 * Construct $\textbf{ACC}$ circuit $D$ using $x'$ and $W_x'$.
