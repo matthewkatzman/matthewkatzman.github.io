@@ -4,4 +4,6 @@ Return [Home](https://matthewkatzman.github.io/notes/notes.html)
 
 ## Known Results
 
+$\textbf{NEXP}\not\subseteq\textbf{ACC} [\[Wil11\]](https://matthewkatzman.github.io/notes/papers/nexpvsacc.html)
+
 $\textbf{NEXP}\subset\textbf{P/poly}\Leftrightarrow\textbf{NEXP}=\textbf{MA}$ [\[IKW02\]](https://matthewkatzman.github.io/notes/papers/easyWitness.html)
