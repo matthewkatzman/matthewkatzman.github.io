@@ -44,7 +44,7 @@ and, for the sake of contradiction, assume that
 
 (2) $\textbf{NEXP}\neq\textbf{EXP}$.
 
-If $\textbf{NEXP}$ has easy witnesses (even considering circuits with oracle $\texttt{SAT}$ gates), then the witness search space is reduced to the point that one can iterate over and evaluate all candidate certificates in exponential time.  This would imply $\textbf{NEXP}=\textbf{EXP}$.  So by (2), there is a problem $L$ in $\text{NEXP}$ for which easy witnesses do not exist infinitely often.
+If $\textbf{NEXP}$ has easy witnesses (even considering circuits with oracle $\texttt{SAT}$ gates), then the witness search space is reduced to the point that one can iterate over and evaluate all candidate certificates in exponential time.  This would imply $\textbf{NEXP}=\textbf{EXP}$.  So by (2), there is a problem $L$ in $\textbf{NEXP}$ for which easy witnesses do not exist infinitely often.
 
 Using this fact, we create the following $2^{O(n)}$-time Turing Machine $M$ given $n+1$ bits of advice.  On input lengths which do not have easy witnesses, there is at least one specific input $z\in L$ for which the certificate is hard.  Provide the string $1z$ as advice in this case.  For all other input lengths, provide $0^{n+1}$.  One can output $0^{2^n}$ and accept in this case.  Otherwise, on input of length $n$, nondeterministically guess a certificate showing $x\in L$ which, by assumption, does not have small circuits, and verify normally before providing the guessed certificate as output.  $M$ nondeterministically generates the truth table of an infinitely-often hard function for circuits with oracles for $\texttt{SAT}$.
 
