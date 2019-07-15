@@ -43,3 +43,4 @@ Modifying the above slightly, we can also decide the output of gate $j$ of circu
 So, since all of this can be constructed (or guessed) in polynomial time, if the $\texttt{ACC-SAT}$ algorithm runs in time $2^{n-\omega(\log n)}$, then so does the above nondeterministic algorithm solving $\texttt{SUCCINCT-3SAT}$.  This completes the proof that such an algorithm for $\texttt{ACC-SAT}$ gives $\textbf{NEXP}\not\subseteq\textbf{ACC}$.  All that remains is to show:
 
 ## $2^{n-\omega(\log n)}$ time algorithm for $\texttt{ACC-SAT}$
+
