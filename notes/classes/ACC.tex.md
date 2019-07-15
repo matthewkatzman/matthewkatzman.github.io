@@ -6,6 +6,6 @@ This is the class of circuits of constant depth and polynomial size over the bas
 
 ## Known Results
 
-$\textbf{NEXP}\not\subseteq\textbf{ACC} [\[Wil11\]](https://matthewkatzman.github.io/notes/papers/nexpvsacc.html)
+$\textbf{NEXP}\not\subseteq\textbf{ACC}$ [\[Wil11\]](https://matthewkatzman.github.io/notes/papers/nexpvsacc.html)
 
 $\textbf{AC^\boldsymbol{0}}\subseteq\textbf{ACC}\subseteq\textbf{TC^\boldsymbol{0}}$
